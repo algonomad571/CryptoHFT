@@ -21,13 +21,13 @@ Built for the BNB AI Hack at IIT Delhi, AutoQuant demonstrates how AI and DeFi c
 - Generates buy/sell/hold signals based on market trends
 - Provides reasoning for each decision to ensure explainability
 
-### 3. Executor Bot (Node.js or Python)
+### 3. Executor Bot (Python)
 - Periodically fetches AI-generated signal
 - If the signal is actionable (buy/sell), triggers onchain executeTrade()
 - Ensures trades only happen when confidence > threshold
 - Publishes trade logs for auditability
 
-### 4. Frontend Dashboard (Optional)
+### 4. Frontend Dashboard
 - Connect wallet to interact with smart contract
 - Display current balance, latest AI decision, trade history
 - Toggle AI execution on/off
